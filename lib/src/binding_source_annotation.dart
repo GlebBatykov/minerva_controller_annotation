@@ -5,17 +5,25 @@ abstract class BindingSourceAnnotation {
 }
 
 class FromBody extends BindingSourceAnnotation {
-  const FromBody();
+  final String? name;
+
+  const FromBody({this.name});
 }
 
 class FromForm extends BindingSourceAnnotation {
-  const FromForm();
+  final String? name;
+
+  const FromForm({this.name});
 }
 
 class FromRoute extends BindingSourceAnnotation {
-  const FromRoute();
+  final String? name;
+
+  const FromRoute({this.name});
 }
 
 class FromQuery extends BindingSourceAnnotation {
-  const FromQuery();
+  final String? name;
+
+  const FromQuery({this.name});
 }
