@@ -1,6 +1,6 @@
 name: minerva_controller_annotation
 description: Annotations for code generation with package `minerva_controller_generator`.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/GlebBatykov/minerva_controller_annotation
 
 environment:
@@ -8,6 +8,7 @@ environment:
 
 dependencies:
   minerva: ^0.3.2
+  minerva_controller: ^1.0.0
 
 dev_dependencies:
   lints: ^2.0.0
