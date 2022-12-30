@@ -1,4 +1,8 @@
-# 1.0.1
+# 1.0.2
+
+- Update library export file.
+
+## 1.0.1
 
 - Add annotation for DELETE actions.
 
